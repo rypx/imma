@@ -1,26 +1,23 @@
 {
   "name": "imma",
   "version": "1.0.0",
-  "description": "Image Manipulation APIs",
+  "description": "Image Manipulation APIs.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rypx/imma.git"
+    "start": "node main.js"
   },
   "keywords": [
     "api",
-    "image",
-    "manipulation",
+    "image-manipulation",
     "express",
-    "heroku"
+    "heroku",
+    "self-hosted-api"
   ],
-  "author": "rypx",
+  "repository": "https://github.com/rypx/imma",
+  "author": "rypx <ryuipx@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rypx/imma/issues"
-  },
-  "homepage": "https://github.com/rypx/imma#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  }
 }
