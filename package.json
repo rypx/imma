@@ -1,0 +1,26 @@
+{
+  "name": "imma",
+  "version": "1.0.0",
+  "description": "Image Manipulation APIs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rypx/imma.git"
+  },
+  "keywords": [
+    "api",
+    "image",
+    "manipulation",
+    "express",
+    "heroku"
+  ],
+  "author": "rypx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rypx/imma/issues"
+  },
+  "homepage": "https://github.com/rypx/imma#readme"
+}
